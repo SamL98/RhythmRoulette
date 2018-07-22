@@ -13,6 +13,9 @@
 		B72E213620B1C50B00DBD6FE /* RhythmRoulette.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B72E213420B1C50B00DBD6FE /* RhythmRoulette.xcdatamodeld */; };
 		B72E213820B1C50B00DBD6FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72E213720B1C50B00DBD6FE /* Assets.xcassets */; };
 		B72E213B20B1C50B00DBD6FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72E213920B1C50B00DBD6FE /* LaunchScreen.storyboard */; };
+		B72E214420B1C89D00DBD6FE /* YoutubeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E214320B1C89D00DBD6FE /* YoutubeManager.swift */; };
+		B72E214620B1CB9800DBD6FE /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E214520B1CB9800DBD6FE /* Util.swift */; };
+		B72E214820B1D1AF00DBD6FE /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E214720B1D1AF00DBD6FE /* DownloadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B72E213720B1C50B00DBD6FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B72E213A20B1C50B00DBD6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B72E213C20B1C50B00DBD6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72E214320B1C89D00DBD6FE /* YoutubeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeManager.swift; sourceTree = "<group>"; };
+		B72E214520B1CB9800DBD6FE /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		B72E214720B1D1AF00DBD6FE /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		B72E212C20B1C50B00DBD6FE /* RhythmRoulette */ = {
 			isa = PBXGroup;
 			children = (
+				B72E214220B1C88D00DBD6FE /* APIManagers */,
 				B72E212D20B1C50B00DBD6FE /* AppDelegate.swift */,
 				B72E212F20B1C50B00DBD6FE /* ViewController.swift */,
 				B72E213120B1C50B00DBD6FE /* Main.storyboard */,
@@ -63,8 +70,18 @@
 				B72E213920B1C50B00DBD6FE /* LaunchScreen.storyboard */,
 				B72E213C20B1C50B00DBD6FE /* Info.plist */,
 				B72E213420B1C50B00DBD6FE /* RhythmRoulette.xcdatamodeld */,
+				B72E214520B1CB9800DBD6FE /* Util.swift */,
 			);
 			path = RhythmRoulette;
+			sourceTree = "<group>";
+		};
+		B72E214220B1C88D00DBD6FE /* APIManagers */ = {
+			isa = PBXGroup;
+			children = (
+				B72E214320B1C89D00DBD6FE /* YoutubeManager.swift */,
+				B72E214720B1D1AF00DBD6FE /* DownloadManager.swift */,
+			);
+			path = APIManagers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B72E213020B1C50B00DBD6FE /* ViewController.swift in Sources */,
+				B72E214820B1D1AF00DBD6FE /* DownloadManager.swift in Sources */,
 				B72E213620B1C50B00DBD6FE /* RhythmRoulette.xcdatamodeld in Sources */,
+				B72E214620B1CB9800DBD6FE /* Util.swift in Sources */,
 				B72E212E20B1C50B00DBD6FE /* AppDelegate.swift in Sources */,
+				B72E214420B1C89D00DBD6FE /* YoutubeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
